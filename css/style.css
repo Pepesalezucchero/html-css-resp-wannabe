@@ -145,7 +145,7 @@ img {
     }
  }
 
- /*smathphone*/
+ /*smathphone 480px*/
 
  @media all and (max-width: 480px) {
     .row {
