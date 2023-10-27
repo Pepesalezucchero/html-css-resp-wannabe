@@ -132,18 +132,11 @@ img {
  /*tablet 768px*/
 
  @media all and (max-width: 768px) {
-    .lessons {
-        display: flex;
-    }
-
-    .steps {
-        display: flex;
-    }
-
-    .why-us {
-        display: flex;
+    .container {
+        width: 100%;
     }
  }
+
 
  /*smathphone 480px*/
 
@@ -152,23 +145,8 @@ img {
         display: block;
     }
 
-    .lessons .col {
+    .lessons .col, .steps .col, .why-us .col-left, .why-us .col-right {
         width: 100%;
         padding: 2rem 1rem 1rem;
     }
-
-    .steps .col {
-        width: 100%;
-        padding: 2rem 1rem 1rem;
-    }
-
-    .why-us .col-left {
-        width: 100%;
-        padding: 2rem 1rem 1rem;
-    }
-
-    .why-us .col-right {
-        width: 100%;
-        padding: 2rem 1rem 1rem;
-    }
- }
+}
