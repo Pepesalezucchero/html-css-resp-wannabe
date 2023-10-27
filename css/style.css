@@ -144,3 +144,31 @@ img {
         display: flex;
     }
  }
+
+ /*smathphone*/
+
+ @media all and (max-width: 480px) {
+    .row {
+        display: block;
+    }
+
+    .lessons .col {
+        width: 100%;
+        padding: 2rem 1rem 1rem;
+    }
+
+    .steps .col {
+        width: 100%;
+        padding: 2rem 1rem 1rem;
+    }
+
+    .why-us .col-left {
+        width: 100%;
+        padding: 2rem 1rem 1rem;
+    }
+
+    .why-us .col-right {
+        width: 100%;
+        padding: 2rem 1rem 1rem;
+    }
+ }
